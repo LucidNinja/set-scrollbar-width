@@ -15,4 +15,4 @@ const setScrollbarWidth = () => {
   getScrollbarWidth();
 };
 
-export default setScrollbarWidth;
+module.exports = setScrollbarWidth;
