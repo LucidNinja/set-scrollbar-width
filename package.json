@@ -1,0 +1,25 @@
+{
+  "name": "set-scrollbar-width",
+  "version": "1.0.0",
+  "description": "Calculates the scrollbar width and injects it into a CSS variable, for use in CSS.",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LucidNinja/set-scrollbar-width.git"
+  },
+  "keywords": [
+    "scrollbar",
+    "javascript",
+    "CSS",
+    "variable"
+  ],
+  "author": "Wake Up, Dreamer",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/LucidNinja/set-scrollbar-width/issues"
+  },
+  "homepage": "https://github.com/LucidNinja/set-scrollbar-width#readme"
+}
