@@ -1,7 +1,7 @@
-const getScrollbarWidth = (cssVariableName = '--twb-scrollbar-width') => {
+const getScrollbarWidth = (cssVariableName = '--twcb-scrollbar-width') => {
   const prevWidth = window
     .getComputedStyle(document.documentElement)
-    .getPropertyValue('--twb-scrollbar-width');
+    .getPropertyValue('--twcb-scrollbar-width');
   const newWidth = `${window.innerWidth - document.body.clientWidth}px`;
 
   if (newWidth !== prevWidth) {
