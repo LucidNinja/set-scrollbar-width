@@ -10,8 +10,8 @@ const getScrollbarWidth = (cssVariableName = '--twb-scrollbar-width') => {
 };
 
 const setScrollbarWidth = () => {
-  window.addEventListener('load', setScrollbarWidth);
-  window.addEventListener('resize', setScrollbarWidth);
+  window.addEventListener('load', getScrollbarWidth);
+  window.addEventListener('resize', getScrollbarWidth);
   getScrollbarWidth();
 };
 
