@@ -2,7 +2,7 @@
   "name": "set-scrollbar-width",
   "version": "1.0.0",
   "description": "Calculates the scrollbar width and injects it into a CSS variable, for use in CSS.",
-  "main": "src/index.js",
+  "main": "src/set-scrollbar-width.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
